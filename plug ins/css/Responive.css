@@ -1,0 +1,56 @@
+ /* Bootstrap 3 meadia queries */
+    /* Large Device (Desktops & LAptops)  */
+@media (min-width: 1200px) and (max-width: 1299px) {
+        /* Navigation  */
+
+    .site-nav-wrappper{
+        padding: 0 25px;
+    }  
+}
+    /* Medium devices (Landscape tablets & Medium desktops)  */
+    @media (min-width: 992px) and (max-width: 1199px) {
+          /* Navigation  */
+        .site-nav-wrappper{
+            padding: 0;
+        }  
+        /* Generic  */
+        .vertical-heading h2{
+            font-size: 29px;
+        }
+            /* Services 02  */
+        #services-tabs .tab-bg{
+            padding: 16px 30px;
+            min-height: 300px;
+        }
+        .service-tab p{
+            line-height: 20px;
+        }
+        
+    }
+    /* Medium devices (potrait tablets & small desktops)  */
+    @media (min-width: 768px) and (max-width: 991px) {
+               /* Navigation  */
+        .site-nav-wrappper{
+            padding: 0;
+        } 
+        /* Home   */
+        #home-heading h1{
+            font-size: 41px;
+        }
+        #home-text p{
+            font-size: 13px;
+        }
+        .btn-general{
+            padding: 8px 35px 8px 35px;
+            font-size: 10px;
+        }
+     /* Generic  */
+         .vertical-heading h2{
+                font-size: 29px;
+            }
+        }
+    
+     /* Medium devices (landscape phone & potrait tablets)  */
+     @media (max-width: 767px) {
+           
+        }
